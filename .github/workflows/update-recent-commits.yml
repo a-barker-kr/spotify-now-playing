@@ -1,5 +1,7 @@
 name: Update GitHub Profile Page
-on: [push]
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   gadpp_job:
